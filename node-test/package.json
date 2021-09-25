@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A test of node modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NodeJS_Backend"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "ak2110",
+  "license": "ISC"
+}
