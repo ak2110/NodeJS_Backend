@@ -1,6 +1,17 @@
 var rect = require('./rectangle');
 
-const Area = rect.area(3,4);
-console.log(Area);
-const Perimeter = rect.perimeter(3,4);
-console.log(Perimeter);
+function solveRectangle(l,b){
+    rect(l,b, (err,rectangle)=>{
+        if(err){
+            console.log("ERROR:",err.message);
+        }
+        else{
+            console.log("Area and perimeter is:"+rectangle.area() + " and "+rectangle.perimeter());
+        }
+    });
+}
+
+solveRectangle(3,4);
+solveRectangle(7,5);
+solveRectangle(-1,5);
+solveRectangle(0,9);
